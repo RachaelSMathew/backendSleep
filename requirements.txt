@@ -4,3 +4,4 @@ django-cors-headers==4.1.0
 sqlparse==0.4.4
 djangorestframework==3.14.0
 djangorestframework-simplejwt==5.3.1
+SQLAlchemy==1.4.0
