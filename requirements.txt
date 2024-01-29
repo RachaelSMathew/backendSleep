@@ -1,37 +1,4 @@
-argcomplete @ file:///private/tmp/python-argcomplete-20231119-5009-1cdmcs6/argcomplete-3.1.6
 asgiref==3.7.2
-awsebcli==3.20.10
-blessed==1.20.0
-botocore==1.31.85
-cement==2.8.2
-certifi==2023.11.17
-cffi @ file:///private/tmp/cffi-20231014-5454-1xfyd4s/cffi-1.16.0
-charset-normalizer==3.3.2
-colorama==0.4.3
-distlib @ file:///private/tmp/python-distlib-20231124-5066-1l1cue/distlib-0.3.7
 Django==5.0
-django-cors-headers==4.3.1
-djangorestframework==3.14.0
-djangorestframework-simplejwt==5.3.1
-docutils @ file:///private/tmp/docutils-20231123-5172-atdz13/docutils-0.20.1
-filelock @ file:///private/tmp/python-filelock-20231112-5412-u6v39j/filelock-3.13.1/dist/filelock-3.13.1-py3-none-any.whl#sha256=57dbda9b35157b05fb3e58ee91448612eb674172fab98ee235ccb0b5bee19a1c
-idna==3.6
-jmespath==1.0.1
-packaging @ file:///private/tmp/python-packaging-20231018-5228-nhvg0j/packaging-23.2
-pathspec==0.10.1
-platformdirs @ file:///private/tmp/python-platformdirs-20231124-8532-hg6u4k/platformdirs-4.0.0
-pycparser @ file:///private/tmp/pycparser-20231013-5559-1dtd22y/pycparser-2.21
-PyJWT==2.8.0
-python-dateutil==2.8.2
-pytz==2023.3.post1
-PyYAML @ file:///private/tmp/pyyaml-20231018-5457-utbrds/PyYAML-6.0.1
-requests==2.31.0
-psycopg2==2.9.6
-argcomplete==3.1.6
-semantic-version==2.8.5
-six==1.16.0
 sqlparse==0.4.4
-termcolor==1.1.0
-urllib3==1.26.18
-virtualenv==20.25.0
-wcwidth==0.1.9
+
