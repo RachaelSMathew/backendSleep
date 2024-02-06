@@ -100,4 +100,8 @@ DETAIL:  Failing row contains (13, null, admin, logentry).
 
 Solution: [try resetting Django database](https://tech.raturi.in/how-reset-django-migrations)
 
+Solution: [try faking migrations](https://stackoverflow.com/a/31324245)
+
+<img width="674" alt="Screenshot 2024-02-06 at 6 01 06 PM" src="https://github.com/RachaelSMathew/backendSleep/assets/30049533/e453e2c9-1d9c-4d82-917c-603787b5e9bf">
+
 Solution: `python manage.py makemigrations [EACH APP]` and then `python manage.py migrate`
