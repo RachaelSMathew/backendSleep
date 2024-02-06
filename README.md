@@ -1,5 +1,5 @@
 # Process of deploying Django app
-## 1. Deploying using [Elastic Beanstalk](https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/create-deploy-python-django.html#python-django-deploy) (was login use girlsleadershipstem@gmail.com)
+## 1. Deploying using [Elastic Beanstalk](https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/create-deploy-python-django.html#python-django-deploy) (login: girlsleadershipstem@gmail.com)
 
 [Install Elastic Beanstalk](https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/eb-cli3-install-virtualenv.html) in terminal in virtual environment: 
 
