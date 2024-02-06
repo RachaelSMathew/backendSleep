@@ -30,13 +30,16 @@ Once I removed a majority of the packages in the requriemnts.txt
 The Vercel deployment was successful but showed this error
 
 **Error:**
+
 <img width="586" alt="Screenshot 2024-01-29 at 6 44 50 PM" src="https://github.com/RachaelSMathew/backendSleep/assets/30049533/d45b14e9-4c1d-4f0e-bcde-a7d4fb02cb90">
 
 ￼
-I initially tried to change to Django 2.1 so that it wouldn’t need 3.8.3 but it didn’t work because django-cors-headers, djangorestframework djangorestframework-simplejwt rely on at least Django 3.2 version
+I initially tried to change to Django 2.1 so that it wouldn’t need 3.8.3, but it didn’t work because django-cors-headers, djangorestframework, djangorestframework-simplejwt rely on at least Django 3.2 version
+
 <img width="702" alt="Screenshot 2024-01-29 at 6 53 57 PM" src="https://github.com/RachaelSMathew/backendSleep/assets/30049533/45275333-dfa1-49bb-9217-4851f8d9f95a">
 
-When I tried to downgrade the Django to 3.2 because 
+I tried to downgrade the Django to 3.2 but couldn't because 
+
 <img width="555" alt="Screenshot 2024-01-29 at 6 52 44 PM" src="https://github.com/RachaelSMathew/backendSleep/assets/30049533/1333e381-06d6-4814-94e0-e52267e2f5a1">
 
 <img width="648" alt="Screenshot 2024-01-29 at 6 55 39 PM" src="https://github.com/RachaelSMathew/backendSleep/assets/30049533/3bb033d0-69e1-4573-9742-22ec942a3644">
