@@ -91,6 +91,9 @@ If you get a warning when imputing certain packages: make sure python intercepto
 Solution: go to directory of virtual environment in terminal and do pwd to get full path and do ‘command shift p’ in visual studio code and select new python intereptor and copy in full path 
 
 Errors I was getting when migrating with new Django external url:
+
+<img width="651" alt="Screenshot 2024-02-06 at 6 02 15 PM" src="https://github.com/RachaelSMathew/backendSleep/assets/30049533/4e9b4e70-27d0-43a9-87f8-367b7b0a6ef1">
+
 ```
 django.db.utils.ProgrammingError: relation "authentication_customuser" does not exist
 django.db.utils.ProgrammingError: relation "auth_permission" does not exist
