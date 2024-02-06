@@ -54,7 +54,7 @@ Explanation of the command:
 
 ## 3. [Using Render to deploy Django App](https://www.youtube.com/watch?v=AgTr5mw4zdI) **SUCCESSFUL**: 
 
-Note: Free tier of render expires after 90 days 
+#### Free tier of Render expires after 90 days 
 
 **Environment vars:**
 
