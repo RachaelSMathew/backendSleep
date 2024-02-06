@@ -55,10 +55,10 @@ Note: Free tier of render expires after 90 days
 
 **Environment vars:**
 
-Render: automatically uses python 3.7 (very old) so need to explicitly state the python version in render environment vars 
+Render: automatically uses python 3.7 (very old), so need to explicitly state the Python version in render environment vars 
 
 
-`python_version 3.10.6`
+`python_version: 3.10.6`
 
 `DATABASE_URL: Internal Database URL for PostgreSQL`
 
@@ -72,27 +72,29 @@ External/internal db URL: allows you to connect to db from different environment
 - dj-database-url: Remotely connect to render postgres db from Django app using the external db url 
 Take database url and transform into Django db parameters (name, [post, hostname) 
 
-- Django-envioron: helps to create environment variables(keep our sensitive info private)
+- Django-envioron: helps to create environment variables(keep our sensitive info private) **cannot use quotes when assigning environment var**
 Configure Django app with environmental vars 
  
 - gunicorn: helps bridge connection between Django app(wigs application in settings) and render web app 
 
-Gitignore .env file when uploading repo (to make it private) 
-Django environs package: cannot use quotes when assigning environment var 
-
-ERRORS: 
-If you get a warning when imputing certain packages: make sure python interceptor is set up correctly
-
-Solution: go to directory of virtual environment in terminal and do pwd to get full path and do ‘command shift p’ in visual studio code and select new python intereptor and copy in full path 
-
+Note: Gitignore .env file when uploading repo (to make it private) 
 
 `Python manage.py` flush will truncate (delete data)
 `sqlclear` will drop (delete table, thus data too)
 
+**ERRORS:**
+If you get a warning when imputing certain packages: make sure python interceptor is set up correctly
 
+Solution: go to directory of virtual environment in terminal and do pwd to get full path and do ‘command shift p’ in visual studio code and select new python intereptor and copy in full path 
 
 Errors I was getting when migrating with new Django external url:
+```
 django.db.utils.ProgrammingError: relation "authentication_customuser" does not exist
 django.db.utils.ProgrammingError: relation "auth_permission" does not exist
 django.db.utils.IntegrityError: null value in column "name" of relation "django_content_type" violates not-null constraint
 DETAIL:  Failing row contains (13, null, admin, logentry).
+```
+
+Solution: [try resetting Django database](https://tech.raturi.in/how-reset-django-migrations)
+
+Solution: `python manage.py makemigrations [EACH APP]` and then `python manage.py migrate`
