@@ -1,5 +1,5 @@
 # Process of deploying Django app
-## 1. Deploying using [Elastic Beanstalk](https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/create-deploy-python-django.html#python-django-deploy) (login: girlsleadershipstem@gmail.com)
+## 1. Deploying using [Elastic Beanstalk](https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/create-deploy-python-django.html#python-django-deploy) (login: girlsleadershipstem@gmail.com) **FAILED**
 
 [Install Elastic Beanstalk](https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/eb-cli3-install-virtualenv.html) in terminal in virtual environment: 
 
@@ -17,7 +17,7 @@ Errors in installing eb in terminal: ModuleNotFoundError: [No module named 'impâ
 
 <img width="698" alt="Screenshot 2024-01-29 at 7 07 23 PM" src="https://github.com/RachaelSMathew/backendSleep/assets/30049533/c843a41e-bdec-48b8-94cb-7d10ffbb90f5">
 
-## 2. [Deploying on vercel: tutorial](https://www.youtube.com/watch?v=ZjVzHcXCeMU)
+## 2. [Deploying on vercel: tutorial](https://www.youtube.com/watch?v=ZjVzHcXCeMU) **FAILED**
 I created a new repo in GitHub for [just the backend](https://github.com/RachaelSMathew/backendSleep)
 
 Initially couldnâ€™t deploy successfully and got this error: 
